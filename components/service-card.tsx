@@ -8,7 +8,7 @@ import { ArrowRight } from 'lucide-react';
 interface ServiceCardProps {
   title: string;
   description: string;
-  icon: LucideIcon;
+  icon: typeof LucideIcon;
   href: string;
   features: string[];
 }
