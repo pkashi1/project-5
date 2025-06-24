@@ -230,7 +230,7 @@ export default function HomePage() {
             </div>
             <div className="animate-fade-in">
               <img
-                src="https://images.pexels.com/photos/1216723/pexels-photo-1216723.jpeg"
+                src="https://images.pexels.com/photos/1078884/pexels-photo-1078884.jpeg"
                 alt="Construction team at work"
                 className="rounded-lg shadow-lg w-full h-96 object-cover"
               />
