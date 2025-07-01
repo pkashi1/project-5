@@ -19,13 +19,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 2. Set up Node.js (match the version you use locally)
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
-
-      # 3. Install dependencies (lockfile is in the repo root)
+          node-version: '20.0'
       - name: Install dependencies
         run: npm install
 
